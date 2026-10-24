@@ -22,15 +22,23 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Create Dummy Debug Keystore
+        run: |
+          keytool -genkey -v -keystore debug.keystore \
+            -storepass android -alias androiddebugkey -keypass android \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
+
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v4
 
       - name: Build & Run Tests with Installed Gradle
-        run: gradle assembleDebug testDebugUnitTest
-        
+        run: gradle assembleDebug testDebugUnitTest --no-daemon -Djava.awt.headless=true
+
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: ted-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+          

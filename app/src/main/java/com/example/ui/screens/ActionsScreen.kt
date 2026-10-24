@@ -26,8 +26,7 @@ import androidx.compose.material.icons.filled.HourglassBottom
 import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.VolumeUp
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Widgets
 import androidx.compose.material.icons.filled.Wifi
 import androidx.compose.ui.draw.clip
@@ -122,7 +121,7 @@ fun ActionsScreen(modifier: Modifier = Modifier) {
               onClick = { app.voiceManager.speak(res.speechSummary) },
               modifier = Modifier.size(28.dp)
             ) {
-              Icon(Icons.Default.VolumeUp, contentDescription = "Speak", tint = Color(0xFFE89A3C))
+              Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Speak", tint = Color(0xFFE89A3C))
             }
           }
           Spacer(modifier = Modifier.height(4.dp))

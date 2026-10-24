@@ -34,8 +34,8 @@ import androidx.compose.material.icons.filled.Lightbulb
 import androidx.compose.material.icons.filled.Photo
 import androidx.compose.material.icons.filled.PhotoCamera
 import androidx.compose.material.icons.filled.Security
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Stop
-import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material.icons.filled.Whatshot
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -370,7 +370,7 @@ fun ScreenRoastScreen(modifier: Modifier = Modifier) {
                 onClick = { app.voiceManager.speak(state.resultText) },
                 modifier = Modifier.size(32.dp)
               ) {
-                Icon(Icons.Default.VolumeUp, contentDescription = "Speak", tint = Color(0xFFE89A3C))
+                Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Speak", tint = Color(0xFFE89A3C))
               }
             }
 

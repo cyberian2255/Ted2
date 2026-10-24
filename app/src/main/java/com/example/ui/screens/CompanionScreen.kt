@@ -28,8 +28,8 @@ import androidx.compose.material.icons.filled.Hearing
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.MicOff
 import androidx.compose.material.icons.filled.PhotoCamera
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Stop
-import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material.icons.filled.Whatshot
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -490,7 +490,7 @@ fun ChatMessageBubble(
             verticalAlignment = Alignment.CenterVertically
           ) {
             Icon(
-              Icons.Default.VolumeUp,
+              Icons.AutoMirrored.Filled.VolumeUp,
               contentDescription = "Listen",
               tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
               modifier = Modifier.size(14.dp)

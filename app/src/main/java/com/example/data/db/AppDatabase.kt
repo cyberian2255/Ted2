@@ -21,7 +21,7 @@ abstract class AppDatabase : RoomDatabase() {
           AppDatabase::class.java,
           "ted_companion_db"
         )
-          .fallbackToDestructiveMigration()
+          .fallbackToDestructiveMigration(dropAllTables = true)
           .build()
         INSTANCE = instance
         instance

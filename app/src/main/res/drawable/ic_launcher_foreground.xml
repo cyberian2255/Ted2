@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Left Ear -->
+    <path
+        android:fillColor="#BA6B28"
+        android:pathData="M35,35 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#E8A870"
+        android:pathData="M35,35 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- Right Ear -->
+    <path
+        android:fillColor="#BA6B28"
+        android:pathData="M73,35 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#E8A870"
+        android:pathData="M73,35 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- Head -->
+    <path
+        android:fillColor="#C97834"
+        android:pathData="M54,32 C40,32 30,42 30,56 C30,70 41,78 54,78 C67,78 78,70 78,56 C78,42 68,32 54,32 Z" />
+
+    <!-- Muzzle -->
+    <path
+        android:fillColor="#F4D3B2"
+        android:pathData="M54,55 C46,55 42,60 42,66 C42,72 47,75 54,75 C61,75 66,72 66,66 C66,60 62,55 54,55 Z" />
+
+    <!-- Nose -->
+    <path
+        android:fillColor="#241810"
+        android:pathData="M54,59 C52,59 50,61 50,62.5 C50,64 52.5,66 54,66 C55.5,66 58,64 58,62.5 C58,61 56,59 54,59 Z" />
+
+    <!-- Sarcastic Smirk Mouth -->
+    <path
+        android:strokeColor="#241810"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M54,66 L54,69 M54,69 C56,71.5 61,71 63,68" />
+
+    <!-- Left Eye (Raised/Wink) -->
+    <path
+        android:fillColor="#241810"
+        android:pathData="M43,49 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    <!-- Left Eyebrow (Arching high with attitude) -->
+    <path
+        android:strokeColor="#241810"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M38,43 Q43,39 48,44" />
+
+    <!-- Right Eye (Squinting cocky) -->
+    <path
+        android:strokeColor="#241810"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M61,50 Q65,48 68,51" />
+    <!-- Right Eyebrow (Flat skeptical) -->
+    <path
+        android:strokeColor="#241810"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M60,45 L69,47" />
+
+    <!-- Red Tie / Collar for Ted's sharp attitude -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M51,77 L57,77 L56,86 L54,89 L52,86 Z" />
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M51.5,76.5 L56.5,76.5 L55.5,79 L52.5,79 Z" />
+</vector>

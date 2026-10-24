@@ -1,0 +1,6 @@
+{
+  "name": "Ted AI Companion",
+  "description": "Blunt, sarcastic teddy bear AI companion with voice interaction, screen awareness roasts, floating overlay, and Android assistant actions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
